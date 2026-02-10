@@ -21,7 +21,12 @@ return {
     vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
     -- first setup telescope
     telescope.setup({
-        -- your config
+      defaults = {
+        preview = {
+          -- treesitter will cause crash
+          treesitter = false,
+        },
+      },
     })
 
     -- then load the extension

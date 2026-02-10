@@ -34,5 +34,6 @@ return {
   keys = {
     { "<leader>n", "<cmd>NvimTreeToggle<cr>", "n", desc="Nvim Tree Toggle"},
     { "<C-n>", "<cmd>NvimTreeToggle<cr>", "n", desc="Nvim Tree Toggle"},
+    { "<leader>e", "<cmd>NvimTreeFindFile<cr>", "n", desc="Find current file"},
   },
 }
