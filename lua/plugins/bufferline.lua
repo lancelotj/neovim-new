@@ -4,5 +4,7 @@ return {
   dependencies = 'nvim-tree/nvim-web-devicons',
   lazy = false,
   -- run plugin.setup()
-  config=true,
+  config = true,
+  opts = {
+  }
 }
